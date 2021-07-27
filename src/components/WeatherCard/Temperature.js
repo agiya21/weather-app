@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Temperature() {
+function Temperature(props) {
     return(
-        <h3>Weather Temperature goes here</h3>
+        <h3>{props.temp}</h3>
     )
 }
 

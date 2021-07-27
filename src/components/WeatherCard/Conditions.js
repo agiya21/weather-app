@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Conditions() {
+function Conditions(props) {
     return(
-        <h2>Raining/Sunny/Windy etc.</h2>
+        <h2>{props.conds}</h2>
     )
 }
 

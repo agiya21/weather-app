@@ -10,9 +10,7 @@ function App() {
     <div>
       <Header />
       <SearchBar />
-      <WeatherCard />
-      <WeatherCard />
-      <WeatherCard />
+      <WeatherCard city="Jakarta"/>
       
       <WeatherDetails />
       <Footer />
