@@ -10,7 +10,8 @@ function WeatherCard(props) {
         <div>
             <CityName name={props.city}/>
             <Pics />
-            <Temperature temp="25 Celsius"/>
+            <Temperature tempCelsius="25 Celsius"
+                tempFahrenheit="77 Fahrenheit"/>
             <Conditions conds="Rainy"/>
             <UpdateTime />
         </div>
