@@ -9,7 +9,7 @@ function App() {
     <div>
       <Header />
       <SearchBar />
-      <WeatherCard city="Malang"/>
+      <WeatherCard city="Bandung"/>
       <Footer />
     </div>
   )

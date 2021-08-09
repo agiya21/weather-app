@@ -1,8 +1,12 @@
 import React from 'react'
 
-function Pics() {
-    return(
-        <p>Weather status pics goes here</p>
+function Pics(props) {
+    const imageUrl = "http://openweathermap.org/img/wn/" + props.icon + "@2x.png"
+    return (
+        <div>
+            <img src={imageUrl} alt="weather-icon" ></img>
+        </div>
+
     )
 }
 

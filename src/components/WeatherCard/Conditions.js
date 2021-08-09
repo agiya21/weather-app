@@ -1,8 +1,11 @@
 import React from 'react'
 
 function Conditions(props) {
-    return(
-        <h2>{props.conds}</h2>
+    return (
+        <div>
+            <h2>{props.conds}</h2>
+            <p>{props.desc}</p>
+        </div>
     )
 }
 
